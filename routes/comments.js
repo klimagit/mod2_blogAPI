@@ -1,4 +1,5 @@
 module.exports = {
+  //git changelog test
     getComments(req, res) {
       //console.log(req.params.postId)
       res.status(200).send(store.posts[req.params.postId].comments)
